@@ -41,7 +41,7 @@ inquirer.prompt([
       },
 ]).then(answers => {
    const shape = createShape(answers);
-    console.log(shape);
+    console.log('shape: ', shape);
 
     
     // function selection(filename, data) {
