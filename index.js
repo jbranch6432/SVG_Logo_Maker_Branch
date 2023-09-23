@@ -51,7 +51,7 @@ class logoCreation {
     };
     render() {
         return `<svg
-        viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+        width="300" height="200" xmlns="http://www.w3.org/2000/svg">
         ${this.userShape} ${this.userText}
         </svg>`
     };
